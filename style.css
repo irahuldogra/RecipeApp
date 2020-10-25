@@ -72,6 +72,21 @@ header button {
   width: 75px;
 }
 
+.fav-meals li .clear {
+  background-color: transparent;
+  opacity: 0;
+  border: none;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.fav-meals li:hover .clear {
+  opacity: 1;
+}
+
 .fav-meals li img {
   border: 2px solid #ffffff;
   border-radius: 50%;
@@ -138,6 +153,44 @@ header button {
 
 .meal-body .fav-btn.active {
   color: red;
+}
+
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.popup-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popup {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0 2rem;
+  overflow: auto;
+  max-width: 600px;
+  max-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.popup .close-popup {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .meal-info h1 {
