@@ -1,22 +1,20 @@
 
 # Recipe App
 
-The application used made using themealdb public apis for the users that are unsure of what to make tonight.
+The application used themealdb public APIs for the users unsure of what to make for a meal.
 
 
 ## Features
 
-- Random recipe suggestion on visits.
+- Random recipe suggestions on visits.
 - Recipe search functionality.
-- Detailed recipe instruction and ingredient lists.
-- Ability to add to favorite.
+- Detailed recipe instructions and ingredient lists.
+- Ability to add to favorites.
 
 
 ## Tech Stack
 
-**Client:** Javascript, Html, Css
-
-**Database:** Local Storage
+**Client:** Javascript, Html, CSS
 
 **Server:** themealdb public apis
 
@@ -26,7 +24,7 @@ The application used made using themealdb public apis for the users that are uns
 - Clone the project
 
 ```bash
-  git clone https://github.com/irahuldogra/RecipeApp.git
+  git clone https://github.com/rahuld109/recipeApp.git
 ```
 
 - Go to the project directory
@@ -36,10 +34,10 @@ The application used made using themealdb public apis for the users that are uns
 
 ## Demo Website 
 
- - [Recipe App](https://irahuldogra.github.io/RecipeApp/)
+ - [Recipe App](https://rahuld109.github.io/recipeApp/)
 
 
 ## Authors
 
-- [@irahuldogra](https://www.github.com/irahuldogra)
+- [@rahul109](https://www.github.com/rahuld109)
 
